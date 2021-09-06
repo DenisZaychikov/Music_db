@@ -1,6 +1,6 @@
 ![db image](Music_db_extended.png)
 
-```python3
+```sql
 create table Genre (
 	id serial primary key,
 	name varchar(20)
