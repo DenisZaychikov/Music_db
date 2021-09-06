@@ -1,3 +1,5 @@
+![db image](Music_db_extended.png)
+
 ```
 create table Genre (
 	id serial primary key,
