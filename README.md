@@ -1,3 +1,4 @@
+```
 create table Genre (
 	id serial primary key,
 	name varchar(20)
@@ -39,3 +40,4 @@ create table Track (
 	album_id integer references Album(id),
 	collection_id integer references Collection(id)
 );
+```
