@@ -40,6 +40,11 @@ create table Track (
 	name varchar(20),
 	duration integer,
 	album_id integer references Album(id),
-	collection_id integer references Collection(id)
+);
+
+create table TrackCollection (
+	track_id integer references Track(id),
+	collection_id integer references Collection(id),
+	constraint pk primary key (track_id, collection_id)
 );
 ```
