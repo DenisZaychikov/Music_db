@@ -1,4 +1,4 @@
-![db image](Music_db_extended.png)
+![db image](Music_db.png)
 
 ```sql
 create table Genre (
