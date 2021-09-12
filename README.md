@@ -39,12 +39,12 @@ create table Track (
 	id serial primary key,
 	name varchar(20),
 	duration integer,
-	album_id integer references Album(id),
+	album_id integer references Album(id)
 );
 
 create table TrackCollection (
 	track_id integer references Track(id),
 	collection_id integer references Collection(id),
-	constraint pk primary key (track_id, collection_id)
+	constraint pk2 primary key (track_id, collection_id)
 );
 ```
